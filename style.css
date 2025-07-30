@@ -1,0 +1,16 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+#brands .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 40px;
+}
