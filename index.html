@@ -6,13 +6,19 @@
   <title>Tilind Clone</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">DistillEdge</a>
+      <a class="navbar-brand" href="#">DISTILLEDGE</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -20,9 +26,9 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#aboutus">About US</a></li>
+          <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="#exports">Exports</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -31,90 +37,320 @@
 
 
 
-  <!-- Hero Section -->
-  <section id="home" class="pt-5 mt-5 bg-light text-center py-5">
-    <div class="container">
-      <h1>DistillEdge</h1>
-      <p class="lead">End-to-End Services for Liquor, Ethanol, and Spirit Manufacturing Units.</p>
-      <!-- <a href="#brands" class="btn btn-primary">View All Brands</a> -->
-    </div>
-  </section>
+  <!-- Home Section -->
 
-  <!-- Brands Section -->
-  <section id="services" class="py-5">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="row g-3 mt-4">
-        <!-- Example brand card -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/Licensing.jpeg" class="card-img-top" alt="Mansion House Brandy">
-            <div class="card-body">
-              <h5 class="card-title">Licensing & Regulatory Approvals</h5>
-            </div>
+<section id="home" class="pt-5 mt-5 bg-light py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left side: Text content -->
+      <div class="col-md-6">
+        <div class="card border-0 bg-light">
+          <div class="card-body">
+            <h1>DISTILLEDGE</h1>
+            <p class="lead">At DISTILLEDGE, we specialize in setting up complete IMFL bottling units and ethanol/spirit manufacturing plants from scratch to full-scale operation. With 30+ years of on-ground experience, we offer comprehensive, practical support at every stage of the project.</p>
           </div>
         </div>
-        <!-- repeat similar cards -->
-
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/SiteSelection&FactoryPlanning.jpeg" class="card-img-top" alt="Mansion House Brandy">
-            <div class="card-body">
-              <h5 class="card-title">Site Selection & Factory Planning</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/Machinery&EquipmentSetup.jpeg" class="card-img-top" alt="Mansion House Brandy">
-            <div class="card-body">
-              <h5 class="card-title">Machinery & Equipment Setup</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/ProjectExecution&Commissioning.jpeg" class="card-img-top" alt="Mansion House Brandy">
-            <div class="card-body">
-              <h5 class="card-title">Project Execution & Commissioning</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/OperationalSetup.jpeg" class="card-img-top" alt="Mansion House Brandy">
-            <div class="card-body">
-              <h5 class="card-title">Operational Setup</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/FinancialPlanning&LoanAssistance.jpeg" class="card-img-top" alt="Mansion House Brandy">
-            <div class="card-body">
-              <h5 class="card-title">Financial Planning & Loan Assistance</h5>
-            </div>
-          </div>
-        </div>
-
       </div>
+
+      <!-- Right side: Logo -->
+      <div class="col-md-6 text-center">
+        <img src="assets/Logo.jpeg" class="img-fluid" alt="DistillEdge Logo" style="max-width: 70%;">
+      </div>
+      
     </div>
-  </section>
+  </div>
+</section>
+
+
+  <!-- Description -->
+   <!-- <section id="description" class="py-5">
+    <div class="container">
+      <!-<h1>DistillEdge</h1> -->
+      <!-- <p class="lead">At Distilledge, we specialize in setting up complete IMFL bottling units and ethanol/spirit manufacturing plants from scratch to full-scale operation. With 30+ years of on-ground experience, we offer comprehensive, practical support at every stage of the project.</p> -->
+      <!-- <a href="#brands" class="btn btn-primary">View All Brands</a> -->
+    <!-- </div> -->
+  <!-- </section> --> 
+
+  <!-- Services Section -->
+
+
+<!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Our Services</h2>
+    <div class="row g-4">
+
+      <!-- Licensing -->
+      <div class="col-md-4">
+        <div class="flip-card"  onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front p-0 m-0">
+              <img src="assets/Licensing.jpeg" class="service-img" alt="Licensing">
+              <h5 class="text-center mt-3 fw-semibold">Licensing & Regulatory Approvals</h5>
+            </div>
+            <div class="flip-card-back">
+              <div class="p-3">
+                <h5>Licensing & Regulatory Approvals</h5>
+                <ul class="mt-2">
+                    <li>Obtaining all the required licenses and permissions for setting up IMFL/ethanol/spirit units.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Site Selection -->
+      <div class="col-md-4">
+        <div class="flip-card"  onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front p-0 m-0">
+              <img src="assets/SiteSelection&FactoryPlanning.jpeg" class="service-img" alt="Site Planning">
+              <h5 class="text-center mt-3 fw-semibold">Site Selection & Factory Planning</h5>
+            </div>
+            <div class="flip-card-back">
+              <div class="p-3">
+                <h5>Site Selection & Factory Planning</h5>
+                <ul class="mt-2">
+                    <li>Help in identifying and evaluating suitable land based on utility access, local laws, and logistics.</li>
+                    <li>Complete factory design and layout planning.</li>
+                    <li>Support for optimized construction planning with focus on cost-efficiency and quality.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Machinery Setup -->
+      <div class="col-md-4">
+        <div class="flip-card"  onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/Machinery&EquipmentSetup.jpeg" class="service-img" alt="Machinery Setup">
+              <h5 class="text-center mt-3 fw-semibold">Machinery & Equipment Setup</h5>
+            </div>
+            <div class="flip-card-back">
+              <div class="p-3">
+                <h5>Machinery & Equipment Setup</h5>
+                <ul class="mt-2">
+                    <li>Recommendation and selection of machinery based on plant capacity and client needs.</li>
+                    <li>Preparation of detailed equipment specs (e.g. nozzle diameter, filling speed, etc.)</li>
+                    <li>Electrical, piping, and utility layout planning.</li>
+                    <li>Sourcing competitive quotations from verified equipment suppliers.</li>
+                    <li>Assistance with PO (purchase order) placement and vendor negotiations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Execution -->
+      <div class="col-md-4">
+        <div class="flip-card"  onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/ProjectExecution&Commissioning.jpeg" class="service-img" alt="Project Execution">
+              <h5 class="text-center mt-3 fw-semibold">Project Execution & Commissioning</h5>
+            </div>
+            <div class="flip-card-back">
+              <div class="p-3">
+                <h5>Project Execution & Commissioning</h5>
+                <ul class="mt-2">
+                    <li>Vendor coordination and follow-up to ensure timely delivery of equipment.</li>
+                    <li>On-site supervision for equipment installation and commissioning.</li>
+                    <li>Execution of trial runs to validate system performance.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Operational Setup -->
+      <div class="col-md-4">
+        <div class="flip-card"  onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/OperationalSetup.jpeg" class="service-img" alt="Operational Setup">
+              <h5 class="text-center mt-3 fw-semibold">Operational Setup</h5>
+            </div>
+            <div class="flip-card-back">
+              <div class="p-3">
+                <h5>Operational Setup</h5>
+                <ul class="mt-2">
+                    <li>Manpower planning and recruitment support for plant operations.</li>
+                    <li>Arranging tie-ups with brand owners for bottling (tie-up/sub-lease agreements).</li>
+                    <li>Support in preparing documentation for sub-leasing or brand collaboration.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Financial Planning -->
+      <div class="col-md-4">
+        <div class="flip-card"  onclick="this.classList.toggle('flipped')">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="assets/FinancialPlanning&LoanAssistance.jpeg" class="service-img" alt="Financial Planning">
+              <h5 class="text-center mt-3 fw-semibold">Financial Planning & Loan Assistance</h5>
+            </div>
+            <div class="flip-card-back">
+              <div class="p-3">
+                <h5>Financial Planning & Loan Assistance</h5>
+                <ul class="mt-2">
+                    <li>Prepares detailed project reports (DPR) for bank loans.</li>
+                    <li>Approaching banks and financial institutions for funding.</li>
+                    <li>Financial modelling and projections for 10 years (eg : volume sold, costs incurred, profits, breakeven analysis).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
   <!-- Distillery Section -->
   <section id="aboutus" class="py-5 bg-light">
     <div class="container">
-      <h2>About US</h2>
-      <!-- <p>Our Shrirampur distillery in Nashik is one of India’s finest brandy producers with a capacity of over 150 KLPD. We use state‑of‑the‑art coal‑fired French pot stills and oak cask ageing.</p>
-      <ul>
-        <li>150 KLPD capacity</li>
-        <li>15+ brands produced</li>
-        <li>93% of sales from Brandy</li>
-      </ul> -->
+      <h2>About Us</h2>
+
+<section class="founder-section" id="founder-speaks">
+  <div class="container">
+    <div id="founderCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Founder 1 -->
+        <div class="carousel-item active">
+          <div class="founder-card">
+            <div class="founder-img-container">
+              <img src="assets/Founders/SudhakarRaju.jpeg" alt="Founder 1">
+            </div>
+            <div class="founder-info">
+              <h2>Founder</h2>
+              <p>
+                30+ years of rich experience across liquor, ethanol, and IMFL bottling plants.
+Previously worked with Pepsi for 6 years as Technical & Project Manager.
+Led major operations and projects across AP, Telangana, and Karnataka over 24 years.
+
+              </p>
+              <div class="founder-name">
+                Sudhakar Raju Konduru
+                <!-- <a href="https://www.linkedin.com/in/amit-bansal" target="_blank">
+                  <i class="bi bi-linkedin linkedin-icon"></i>
+                </a> -->
+              </div>
+              <div>Project Consultant</div>
+              <div>B.Tech in Mechanical Engineering</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more founder blocks here -->
+        <!-- ... -->
+
+        <!-- Founder 1 -->
+        <div class="carousel-item active">
+          <div class="founder-card">
+            <div class="founder-img-container">
+              <img src="assets/Founders/RajaNaren.jpeg" alt="Founder 1">
+            </div>
+            <div class="founder-info">
+              <h2>Co Founder</h2>
+              <p>
+                Work Experience: 11 years of Banking, Investments, Corporate Finance, Planning, Strategy, Finance Transformation
+Worked at Deloitte Consulting, Godrej Properties, Century Real Estate Holdings, Piramal Capital, State Bank of India, Cognizant
+
+              </p>
+              <div class="founder-name">
+                Raja Naren Konduru
+                <a href="https://www.linkedin.com/in/raja-naren-konduru-27764849/" target="_blank">
+                  <i class="bi bi-linkedin linkedin-icon"></i>
+                </a>
+              </div>
+              <div>Financial Advisor</div>
+              <div>B.Tech in Electrical Engineering (VIT Vellore, 2008–2012)</div>
+              <div>MBA – IIM Lucknow (2016–2018)</div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Founder 1 -->
+        <div class="carousel-item active">
+          <div class="founder-card">
+            <div class="founder-img-container">
+              <img src="assets/Founders/SrikarSai.jpeg" alt="Founder 1">
+            </div>
+            <div class="founder-info">
+              <h2>Co Founder</h2>
+              <p>
+                Work Experience: 3 years of Project Management, Design, Operations, Cost Optimization, Stakeholder management 
+Worked at Mahindra & Mahindra, Veera RMC Pvt. Ltd
+
+              </p>
+              <div class="founder-name">
+                Srikar Sai Konduru
+                <a href="https://www.linkedin.com/in/srikar-konduru-ba6547183/" target="_blank">
+                  <i class="bi bi-linkedin linkedin-icon"></i>
+                </a>
+              </div>
+              <div>Project Support</div>
+              <div>B.Tech in Mechanical Engineering (Mahindra University, 2018–2022)</div>
+            </div>
+          </div>
+        </div>     
+        
+        <!-- Founder 1 -->
+        <div class="carousel-item active">
+          <div class="founder-card">
+            <div class="founder-img-container">
+              <img src="assets/Founders/Sreemae.jpeg" alt="Founder 1">
+            </div>
+            <div class="founder-info">
+              <h2>Tech Lead</h2>
+              <p>
+                Work Experience: 4.7+ years of experience in Software Engineering and Technical Leadership roles with a focus on: Project & Product Development, Full-stack Web & Backend Development, Cloud Infrastructure & DevOps, Stakeholder Collaboration & Agile Delivery, Mentorship, Leadership, and Community Engagement.
+              </p>
+              <div class="founder-name">
+                Sreemae Konduru
+                <a href="https://www.linkedin.com/in/sreemae-konduru/" target="_blank">
+                  <i class="bi bi-linkedin linkedin-icon"></i>
+                </a>
+              </div>
+              <div>Software Engineer</div>
+              <div>B.Tech in Computer Science & Engineering (VNR VJIET, 2016–2020)</div>
+              <div>xGoogle, xJPMorgan Chase</div>
+            </div>
+          </div>
+        </div>          
+
+
+      </div>
+
+      <!-- Arrows -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#founderCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#founderCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
     </div>
   </section>
 
@@ -130,6 +366,10 @@
   <section id="contact" class="py-5 bg-light">
     <div class="container">
       <h2>Contact Us</h2>
+
+      <h4>Lets Talk</h4>
+      <p class="lead">Mail us at ksudhakarraju@gmail.com</p>
+      <p class="lead">Or Call +91 9652525203</p>
       <!-- <form class="row g-3">
         <div class="col-md-6"><input type="text" class="form-control" placeholder="First Name" required></div>
         <div class="col-md-6"><input type="text" class="form-control" placeholder="Last Name" required></div>
@@ -159,7 +399,7 @@
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
-    © 2025 Tilaknagar Industries Ltd.
+    DISTILLEDGE
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
